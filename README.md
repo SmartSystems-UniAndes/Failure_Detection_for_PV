@@ -20,9 +20,9 @@ To use the demo run the demo.py file that has the following arguments:
 - **segmentation_model**: Path to the trained model for semantic segmentation (default: *.../models/UNet_segmentation_model
   .h5*).
 - **bin_classification_model**: Path to the trained model for binary classification (default: *.../models/
-  bin_classification_model.h5).
+  bin_classification_model.h5*).
 - **quat_classification_model**: Path to the trained model for quaternary classification (default: *.../models/
-  quat_classification_model.h5).
+  quat_classification_model.h5*).
 - **mode**: Mode of use: *segmentation*, *bin_classification*, *quat_classification*, *all* (default: *all*).
 
 Example:
