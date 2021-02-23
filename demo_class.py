@@ -74,9 +74,9 @@ class RunDemo:
         for i in range(len(self.images_files)):
             im = os.path.basename(self.images_files[i]).split(".")[0]
             if classification_results[i] == 1:
-                with_fail = "with failure."
+                with_fail = "with fault."
             else:
-                with_fail = "without failure."
+                with_fail = "without fault."
 
             print(f"- Image {im} {with_fail}")
         print("|-------------------------------------------------------------------|")
@@ -95,9 +95,9 @@ class RunDemo:
             clf_result = np.argmax(classification_results[i])
             with_fail = None
             if clf_result == 0:
-                with_fail = "without failure."
+                with_fail = "without fault."
             elif clf_result == 1:
-                with_fail = "with fissure."
+                with_fail = "with cracks."
             elif clf_result == 2:
                 with_fail = "with shadow."
             elif clf_result == 3:
