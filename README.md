@@ -1,4 +1,4 @@
-# Fault classification system of photovoltaic panels using RGB images and deep learning
+# Failure classification system of photovoltaic panels using RGB images and deep learning
 
 ## About
 
@@ -47,4 +47,4 @@ $ python demo.py --mode all
 
 ## References
 
-[1] Espinosa, Alejandro Rico, Michael Bressan, and Luis Felipe Giraldo. "Failure signature classification in solar photovoltaic plants using RGB images and convolutional neural networks." Renewable Energy 162 (2020): 249-256.
+[1] Espinosa, A. R., Bressan, M., & Giraldo, L. F. (2020). Failure signature classification in solar photovoltaic plants using RGB images and convolutional neural networks. Renewable Energy, 162, 249-256.
