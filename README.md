@@ -34,11 +34,14 @@ $ python demo.py --mode all
 ## Citing Work
 
 ```BibTeX
-@article{faultPVpanels,
-  title = {Real time fault classification system of photovoltaic panels using RGB images and deep learning},
-  author = {Andrés Florez, Luis Giraldo, Michael Bressan},
-  journal = {} 
-  year = {2021}
+@article{espinosa2020failure,
+  title={Failure signature classification in solar photovoltaic plants using RGB images and convolutional neural networks},
+  author={Espinosa, Alejandro Rico and Bressan, Michael and Giraldo, Luis Felipe},
+  journal={Renewable Energy},
+  volume={162},
+  pages={249--256},
+  year={2020},
+  publisher={Elsevier}
 }
 ```
 
