@@ -2,10 +2,8 @@
 
 ## About
 
-This repository contains the work developed by Andrés Florez in *Real time fault classification system of photovoltaic
-panels using RGB images and deep learning*. Omitting the Raspberry Pi implementation, here is shown the CNN development
-for photovoltaic module detection with semantic segmentation (U-NET), binary fault classification (fault and no fault), 
-and quaternary fault classification (cracks, dust, shadows and no fault) implementations. [1]
+This repository contains the work developed by Espinosa, A, et al. in *Failure signature classification in solar photovoltaic plants using RGB images and convolutional neural networks*. Here is shown the CNN development for photovoltaic module detection with semantic segmentation (U-NET), binary failure classification (with and without), 
+and quaternary failure classification (cracks, dust, shadows and no failure) implementations. [1]
 
 ## Work Environment
 
