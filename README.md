@@ -9,6 +9,10 @@ and quaternary failure classification (cracks, dust, shadows and no failure) imp
 
 See [SETUP.md](SETUP.md).
 
+## How it works?
+
+Each of the [*semantic_segmentation*](semantic_segmentation), [*binary_classification*](binary_classification) and [*quaternary_classification*](quaternary_classification) folders, is a self content project for its specific purpose. So, for example in the *semantic_segmentation* folder, you can run the data agumentation process and the U-NET training if you want. Please nott, that is important to create the folders which are requireds for the dataset for every script that may need them.
+
 ## Demo
 
 To use the demo run the demo.py file that has the following arguments:
