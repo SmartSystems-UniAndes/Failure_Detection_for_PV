@@ -11,7 +11,9 @@ See [SETUP.md](SETUP.md).
 
 ## How it works?
 
-Each of the [*semantic_segmentation*](semantic_segmentation), [*binary_classification*](binary_classification) and [*quaternary_classification*](quaternary_classification) folders, is a self content project for its specific purpose. So, for example in the *semantic_segmentation* folder, you can run the data agumentation process and the U-NET training if you want. Please nott, that is important to create the folders which are requireds for the dataset for every script that may need them.
+Each of the [*semantic_segmentation*](semantic_segmentation), [*binary_classification*](binary_classification) and [*quaternary_classification*](quaternary_classification) folders, is a self content project for its specific purpose. So, for example in the *semantic_segmentation* folder, you can run the data agumentation process and the U-NET training if you want. Please note, that is important to create the folders which are requireds for the dataset for every script that may need them.
+
+To run the U-NET training, first run the [*augmentation_function.py*](semantic_segmentation/preprocessing/augmentation_function.py) script to make the adata augmentation process, then, run the [*ss_u_net.py*](semantic_segmentation/u_net/ss_u_net.py) script to re train the model, and if you want to observe the filters that the net learned, run the [*load_features_filters.py*](semantic_segmentation/u_net/load_features_filters.py) script. For binary and quaternary classification, the process is the same.
 
 ## Demo
 
