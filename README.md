@@ -15,6 +15,8 @@ Each of the [*semantic_segmentation*](semantic_segmentation), [*binary_classific
 
 To run the U-NET training, first run the [*augmentation_function.py*](semantic_segmentation/preprocessing/augmentation_function.py) script to make the adata augmentation process, then, run the [*ss_u_net.py*](semantic_segmentation/u_net/ss_u_net.py) script to re train the model, and if you want to observe the filters that the net learned, run the [*load_features_filters.py*](semantic_segmentation/u_net/load_features_filters.py) script. For binary and quaternary classification, the process is the same.
 
+The generated dataset for the transfer learn process, and the trained models are availabel in the following link: https://drive.google.com/drive/folders/1sUerXy1_MTf7PUm2DjsNVTz173euYAmJ?usp=sharing
+
 ## Demo
 
 To use the demo run the demo.py file that has the following arguments:
